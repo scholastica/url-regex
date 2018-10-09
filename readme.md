@@ -4,6 +4,13 @@
 
 Based on this [gist](https://gist.github.com/dperini/729294) by Diego Perini.
 
+## build ES5
+
+This adds a way to transpile the index.js file to es5 and can be found in ./es5/index.js
+
+    npm run es5
+
+
 
 ## Install
 

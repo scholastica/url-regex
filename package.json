@@ -12,8 +12,10 @@
   "engines": {
     "node": ">=4"
   },
+  "main": "es5/index.js",
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "es5": "babel index.js --out-file es5/index.js"
   },
   "files": [
     "index.js"
@@ -28,6 +30,9 @@
     "tlds": "^1.187.0"
   },
   "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0",
     "ava": "*",
     "xo": "*"
   },
